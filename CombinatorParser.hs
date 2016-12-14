@@ -19,3 +19,4 @@ module CombinatorParser where
       otherwise       -> [])
 
   digit = sat (\x -> x >= '0' && x<= '9')
+  
